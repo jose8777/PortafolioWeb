@@ -300,6 +300,8 @@ section {
     font-weight: 500;
 }
 
+/*---------------------Sección de educación---------------------*/
+
 .educacion-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -384,6 +386,80 @@ section {
 }
 
 .educacion-links a:hover {
+    color: var(--primary-color);
+}
+
+/*---------------------Sección de proyectos---------------------*/
+
+.proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap:2rem;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.proyectos-card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: var(--transition);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.proyectos-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 30px rgba(108, 99, 255, .5);
+
+}
+
+.proyectos-img {
+    overflow: hidden; 
+}
+
+.proyectos-img img {
+    transition: var(--transition);
+    width: 100%;
+}
+
+.proyectos-card:hover .proyectos-img img {
+    transform: scale(1.05);
+}
+
+.proyectos-info {
+    padding: 1.5rem;
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.proyectos-info h3 {
+    margin-bottom: .8rem;
+    font-size: 1.3rem;
+}
+
+.proyectos-info p {
+    color: var(--gray-text);
+    margin-bottom: 1rem;
+    font-size: .95rem;
+    flex-grow: 1;
+}
+
+.proyectos-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.proyectos-links a {
+    font-size: .9rem;
+    color:var(--gray-text);
+    transition: var(--transition);
+}
+
+.proyectos-links a:hover {
     color: var(--primary-color);
 }
 
