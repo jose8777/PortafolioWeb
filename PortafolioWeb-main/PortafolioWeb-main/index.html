@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miCurriculum</title>
+    <link rel="stylesheet" href="curriculumCSS.css">
+    <script src="https://kit.fontawesome.com/1691935b0c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <canvas id="starsCanvas"></canvas>
+    <script src="estrellas.js"></script>
+
+    <header>
+        <nav id="navbar">
+            <div class="logo">Jose<span>Jiménez</span></div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+
+        <!----------------------------------Hero--------------------------------------->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>José Manuel Jiménez Rodríguez</h1>
+                    <h2>Desarrollador Web</h2>
+                    <p>En busca de una oportunidad y con muchas ganas de aprender y mejorar habilidades</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/jos%C3%A9-manuel-jim%C3%A9nez-rodr%C3%ADguez-16bb7b182/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                         <a href="https://github.com/jose8777" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <br>
+                    <a href="docs/DeveloperEspañol.pdf" target="_blank" class="btn">Contáctame en mi CV</a>
+                </div>
+                <div class="hero-image">
+                    <img src="img/yo1.png" alt="Imagen no disponible">
+                </div>
+            </div>
+        </section>
+
+        <!---------------------------------------SECCIÓN DE EXPERIENCIA----------------------------------->
+        <section id="experiencia" class="experiencia">
+            <h2 class="section-title">Experiencia Laboral</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">04/2016 - 12/2025</span>
+                        <h3>Expendedor/Vendedor Combustible</h3>
+                        <h4>Combustibles BP</h4>
+                        <li>Atención al cliente</li>
+                        <li>Suministro de combustible</li>
+                        <li>Limpieza y mantenimiento de las instalaciónes</li>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">10/2014 - 12/2015</span>
+                        <h3>Mecánico de Scooters</h3>
+                        <h4>Telepizza S.A</h4>
+                        <li>Reparación de Scoters</li>
+                        <li>Pasar revisión de las Scotters en ITV</li>
+                        <li>Mantenimientos preventivos</li>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-----------------------------------------------SECCIÓN DE EDUCACIÓN ------------------------------------->
+        <section id="educacion" class="educacion">
+            <h2 class="section-title">Educación</h2>
+            <div class="educacion-container">
+                <div class="educacion-card">
+                    <div class="educacion-img">
+                        <img src="img/ilerna.jpg" alt="ilerna">
+                    </div>
+                    <div class="educacion-info">
+                        <h3>Técnico superior en desarrollo de aplicaciónes multiplataforma</h3>
+                        <p>Ilerna curso: 2024/2026</p>
+                        <div class="educacion-tech">
+                            <span>Lenguajes:</span>
+                            <span>C#</span>
+                            <span>java</span>
+                            <span>kotlin</span>
+                            <span>html</span>
+                            <span>css</span>
+                            <span>javascript</span></br>
+                            <span>Tegnologias y frameworks:</span>
+                            <span>Angular</span>
+                            <span>Eclipse</span>
+                            <span>Android Studio</span>
+                            <span>Spring Boot</span>
+                            <span>Net Beans</span>
+                            <span>Visual studio code</span>
+                        </div>
+                        <div class="educacion-links">
+                            <a href="docs/notas.pdf" target="_blank"><i class="fas fa-link"></i>Certificado de Notas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="educacion-card">
+                    <div class="educacion-img">
+                        <img src="img/pildoras.jpg" alt="ilerna">
+                    </div>
+                    <div class="educacion-info">
+                        <h3>Certificado Java 280 horas</h3>
+                        <p>Pildoras Informáticas 2024/2025</p>
+                         <div class="educacion-tech">
+                            <span>Estructuras: bucles, arrays..</span>
+                            <span>POO</span>
+                            <span>Herencia</span>
+                            <span>Polimorfismo</span>
+                            <span>clases abstractas</span>
+                            <span>Lambdas</span>
+                            <span>Sockets</span></br>
+                            <span>Threads</span>
+                            <span>Serializacion</span>
+                            <span>Conexiones JDBC</span>
+                            <span>JavaFX</span>
+                            <span>Interfaces</span>
+                            <span>Excepciones</span>
+                            <span>Servlets</span>
+                            <span>Colecciones</span>
+                        </div>
+                        <div class="educacion-links">
+                            <a href="docs/certificacionJava1.pdf" target="_blank"><i class="fas fa-link"></i>Certificado 1</a>
+                            <div class="educacion-links">
+                            <a href="docs/certifiacacionJava2.pdf" target="_blank"><i class="fas fa-link"></i>Certificado 2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+        <!-------------------------------------------SECCIÓN DE PROYECTOS------------------------------------>
+           <section id="proyectos" class="proyectos">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="proyectos-container">
+                <div class="proyectos-card">
+                    <div class="proyectos-img">
+                        <img src="img/audiRs6.webp" alt="Coche">
+                    </div>
+                    <div class="proyectos-info">
+                        <h3>Proyecto página de vehículos de importación</h3>
+                        <div class="proyectos-links">
+                            <a href="https://www.importacionvehiculos.es/" target="_blank"><i class="fas fa-link"></i>Mi página de vehículos de importación, pincha aquí</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Jose Manuel Jiménez Rodríguez. Todos los derechos reservados.</p>
+             <div class="social-links">
+                        <a href="https://www.linkedin.com/in/jos%C3%A9-manuel-jim%C3%A9nez-rodr%C3%ADguez-16bb7b182/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                         <a href="https://github.com/jose8777" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+        </div>
+    </footer>
+</body>
+</html>
