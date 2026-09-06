@@ -462,7 +462,9 @@ section {
 .proyectos-links a:hover {
     color: var(--primary-color);
 }
-
+ .timeline-content a:hover {
+    color: var(--primary-color);
+}
 .footer {
     background-color: var(--dark-bg);
     border-top: 1px solid var(--border-color);
