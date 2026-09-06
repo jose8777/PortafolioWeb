@@ -45,5 +45,3 @@ function animate() {
 }
 
 animate();
-/*Para mantener el scroll en la parte superior */ 
-window.scrollTo(0, 0);
